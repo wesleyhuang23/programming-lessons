@@ -60,3 +60,51 @@ state = "California"
 puts "#{state}"
 puts "I live in the city of #{state}"
 .upcase!
+
+#if statement
+#-straight up write remember to end at the bottom
+if 2 > 1
+    print "This is easy"
+elsif 1 < 2
+    print "This is not fun"
+else
+    print "Too bad"
+end
+
+#unless
+hungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
+
+#asssignment operator
+is_true = 2 != 3
+is_false = 2 == 3
+
+#Booleans
+# boolean_1 = 77 < 78 && 77 < 77
+boolean_1 = false
+
+# boolean_2 = true && 100 >= 100
+boolean_2 = true
+
+# boolean_3 = 2**3 == 8 && 3**2 == 9
+boolean_3 = true
+
+#double comparing
+# boolean_1 = (3 < 4 || false) && (false || true)
+boolean_1 = true
+
+# boolean_2 = !true && (!true || 100 != 5**2)
+boolean_2 = false
+
+# boolean_3 = true || !(true || false)
+boolean_3 = true
+
+#unless
+#-will not print unless problem is false, WILL NOT FIRE if true
+problem = true
+print "I am ready" unless problem
